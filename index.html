@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Frontend Mentor | Bento grid</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div
+      class="bg-gray-100 max-w-[1440px] min-h-screen pt-[50px] mx-auto my-[50px] px-4 font-['DM_Sans']"
+    >
+      <div
+        class="grid grid-cols-1 lg:grid-cols-[200px_682px] gap-4 w-fit mx-auto"
+      >
+        <div class="grid gap-4">
+          <div
+            class="bg-[hsl(31,66%,93%)] w-[200px] h-[308px] rounded-lg overflow-hidden p-[20px]"
+          >
+            <h1 class="text-[32px] font-[600] leading-none tracking-tighter">
+              Create and schedule content
+              <span class="text-[hsl(256,67%,59%)] italic">quicker.</span>
+            </h1>
+            <img src="./assets/images/illustration-create-post.webp" alt="" />
+          </div>
+          <div
+            class="bg-[hsl(39,100%,71%)] w-[200px] h-[308px] rounded-lg overflow-hidden p-[20px]"
+          >
+            <h1>Write your content using AI.</h1>
+            <img src="./assets/images/illustration-ai-content.webp" alt="" />
+          </div>
+        </div>
+
+        <div>
+          <div class="grid grid-cols-1 md:grid-cols-[416px_1fr] gap-4">
+            <div class="grid gap-4">
+              <div
+                class="bg-[hsl(256,67%,59%)] w-[416px] h-[200px] rounded-lg overflow-hidden p-[20px]"
+              >
+                <h1>
+                  Social Media <span>10x</span> <span>Faster</span> with AI
+                </h1>
+                <img
+                  src="./assets/images/illustration-five-stars.webp"
+                  alt=""
+                />
+                <p>Over 4,000 5-star reviews</p>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div
+                  class="bg-white w-[200px] h-[200px] rounded-lg overflow-hidden p-[20px]"
+                >
+                  <img
+                    src="./assets/images/illustration-multiple-platforms.webp"
+                    alt=""
+                  />
+                  <h1>Manage multiple accounts and platforms.</h1>
+                </div>
+                <div
+                  class="bg-[hsl(39,100%,71%)] w-[200px] h-[200px] rounded-lg overflow-hidden p-[20px]"
+                >
+                  <h1>Maintain a consistent posting schedule.</h1>
+                  <img
+                    src="./assets/images/illustration-consistent-schedule.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="bg-[hsl(254,88%,90%)] overflow-hidden w-[200px] h-[416px] rounded-lg p-[20px]"
+            >
+              <h1>Schedule to social media.</h1>
+              <img
+                src="./assets/images/illustration-schedule-posts.webp"
+                alt=""
+                class="ml-[50px] scale"
+              />
+              <p>
+                Optimize post timings to publish content at the perfect time for
+                your audience.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4 mt-4">
+            <div
+              class="bg-white w-[200px] h-[200px] rounded-lg overflow-hidden p-[20px]"
+            >
+              <h1>>56%</h1>
+              <p>faster audience growth</p>
+              <img
+                src="./assets/images/illustration-audience-growth.webp"
+                alt=""
+              />
+            </div>
+            <div
+              class="bg-[hsl(256,67%,59%)] w-[416px] h-[200px] rounded-lg overflow-hidden p-[20px]"
+            >
+              <img
+                src="./assets/images/illustration-grow-followers.webp"
+                alt=""
+              />
+              <h1>Grow followers with non-stop content.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Media 10x Faster with AI Over 4,000 5-star reviews Manage multiple
+      accounts and platforms. Maintain a consistent posting schedule. Schedule
+      to social media. Optimize post timings to publish content at the perfect
+      time for your audience. Grow followers with non-stop content. >56% faster
+      audience growth Create and schedule content quicker. Write your content
+      using AI. -->
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
